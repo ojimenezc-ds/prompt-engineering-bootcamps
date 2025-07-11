@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bootcamps.Prompt.engineering.bootcamps.PromptEngineeringBootcampsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-11T17:29:10.945Z" hostname="MQ44WTNQYN" time="0.35">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.bootcamps.Prompt.engineering.bootcamps.PromptEngineeringBootcampsApplicationTests" time="0.35"/>
+  <system-out><![CDATA[11:29:10.119 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bootcamps.Prompt.engineering.bootcamps.PromptEngineeringBootcampsApplicationTests]: PromptEngineeringBootcampsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:29:10.165 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bootcamps.Prompt.engineering.bootcamps.PromptEngineeringBootcampsApplication for test class com.bootcamps.Prompt.engineering.bootcamps.PromptEngineeringBootcampsApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::       (v4.0.0-SNAPSHOT)
+
+2025-07-11T11:29:10.326-06:00  INFO 34577 --- [Prompt-engineering-bootcamps] [    Test worker] omptEngineeringBootcampsApplicationTests : Starting PromptEngineeringBootcampsApplicationTests using Java 17.0.8.1 with PID 34577 (started by oscareduardo.jimenez in /Users/oscareduardo.jimenez/Documents/repositories/prompt-engineering-bootcamps)
+2025-07-11T11:29:10.326-06:00  INFO 34577 --- [Prompt-engineering-bootcamps] [    Test worker] omptEngineeringBootcampsApplicationTests : The following 5 profiles are active: "events", "dev", "local", "git", "urls"
+2025-07-11T11:29:10.811-06:00  INFO 34577 --- [Prompt-engineering-bootcamps] [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-11T11:29:10.940-06:00  INFO 34577 --- [Prompt-engineering-bootcamps] [    Test worker] omptEngineeringBootcampsApplicationTests : Started PromptEngineeringBootcampsApplicationTests in 0.723 seconds (process running for 1.214)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
