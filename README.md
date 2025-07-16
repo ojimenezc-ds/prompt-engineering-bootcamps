@@ -13,7 +13,7 @@ A Spring Boot application written in Kotlin that provides a REST API for user ma
 
 ## API Endpoints
 
-- `GET /api/users` - Returns all users from the users.json file
+- `GET /api/users` - Returns all users from the users.json file.
 
 ### API Documentation
 - Swagger UI: `http://localhost:8080/swagger-ui/index.html`
