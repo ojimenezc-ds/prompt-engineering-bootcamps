@@ -3,7 +3,7 @@ package com.bootcamps.Prompt.engineering.bootcamps.model
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class User(
-    val id: Int,
+    val id: Long,
     val firstName: String,
     val lastName: String,
     val maidenName: String?,
@@ -14,28 +14,28 @@ data class User(
     val username: String,
     val password: String,
     val birthDate: String,
-    val image: String,
-    val bloodGroup: String,
-    val height: Double,
-    val weight: Double,
-    val eyeColor: String,
-    val hair: Hair,
-    val ip: String,
-    val address: Address,
-    val macAddress: String,
-    val university: String,
-    val bank: Bank,
-    val company: Company,
-    val ein: String,
-    val ssn: String,
-    val userAgent: String,
-    val crypto: Crypto,
-    val role: String
+    val image: String?,
+    val bloodGroup: String?,
+    val height: Double?,
+    val weight: Double?,
+    val eyeColor: String?,
+    val hair: Hair?,
+    val ip: String?,
+    val address: Address?,
+    val macAddress: String?,
+    val university: String?,
+    val bank: Bank?,
+    val company: Company?,
+    val ein: String?,
+    val ssn: String?,
+    val userAgent: String?,
+    val crypto: Crypto?,
+    val role: String?
 )
 
 data class Hair(
     val color: String?,
-    val type: String
+    val type: String?
 )
 
 data class Address(
@@ -45,12 +45,12 @@ data class Address(
     val stateCode: String?,
     val postalCode: String?,
     val coordinates: Coordinates?,
-    val country: String
+    val country: String?
 )
 
 data class Coordinates(
-    val lat: Double,
-    val lng: Double
+    val lat: Double?,
+    val lng: Double?
 )
 
 data class Bank(
@@ -58,25 +58,18 @@ data class Bank(
     val cardNumber: String?,
     val cardType: String?,
     val currency: String?,
-    val iban: String
+    val iban: String?
 )
 
 data class Company(
     val department: String?,
     val name: String?,
     val title: String?,
-    val address: Address?
+    val address: String?
 )
 
 data class Crypto(
     val coin: String?,
     val wallet: String?,
-    val network: String
-)
-
-data class UsersResponse(
-    val users: List<User>,
-    val total: Int,
-    val skip: Int,
-    val limit: Int
+    val network: String?
 )
