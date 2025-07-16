@@ -80,3 +80,33 @@ data class UsersResponse(
     val skip: Int,
     val limit: Int
 )
+
+data class CreateUserRequest(
+    val firstName: String,
+    val lastName: String,
+    val maidenName: String? = null,
+    val age: Int,
+    val gender: String,
+    val email: String,
+    val phone: String,
+    val username: String,
+    val password: String,
+    val birthDate: String,
+    val image: String? = null,
+    val bloodGroup: String? = null,
+    val height: Double? = null,
+    val weight: Double? = null,
+    val eyeColor: String? = null,
+    val hair: Hair? = null,
+    val ip: String? = null,
+    val address: Address? = null,
+    val macAddress: String? = null,
+    val university: String? = null,
+    val bank: Bank? = null,
+    val company: Company? = null,
+    val ein: String? = null,
+    val ssn: String? = null,
+    val userAgent: String? = null,
+    val crypto: Crypto? = null,
+    val role: String = "user"
+)
