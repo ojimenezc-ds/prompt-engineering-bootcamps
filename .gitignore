@@ -2,3 +2,5 @@
 .kotlin/
 .vscode/
 .idea/
+.gradle/
+build/
