@@ -44,6 +44,9 @@ export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 # Or build and run the JAR
 ./gradlew build
 java -jar build/libs/Prompt-engineering-bootcamps-0.0.1-SNAPSHOT.war
+
+# Swagger
+http://localhost:8080/swagger-ui/index.html
 ```
 
 ### Running Tests
