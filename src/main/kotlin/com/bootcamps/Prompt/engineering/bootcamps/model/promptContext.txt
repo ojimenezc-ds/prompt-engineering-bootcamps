@@ -1,0 +1,6 @@
+You are a senior software engineer with 10+ years of experience in Java/Kotlin and Spring Boot.
+Your task is to extend the current implementation with CRUD, also based on the resources provided in users.json, the specific expectations are:
+- CREATE A NEW USER’
+- GET USER BY ID
+- UPDATE USER’S AGE
+- DELETE USER BY ID
