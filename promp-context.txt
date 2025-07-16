@@ -1,0 +1,11 @@
+You are a senior software engineer with 10+ years of experience in Java/Kotlin and Spring Boot.
+Ensure that the new endpoints follow RESTful principles and return appropriate HTTP status codes.
+Use Kotlin's data classes for request and response bodies where applicable.
+Use users.json as a data source for the user information.
+Based in the current implementation of rest API UserController.kt, implement the next functionalities:
+
+- Create a new endpoint to create a new user.
+- Create a new endpoint to get a user by ID.
+- Create a new endpoint to update user's age.
+- Create a new endpoint to delete a user by ID.
+
