@@ -1,131 +1,70 @@
-# Users API Service
+# Getting Started with Create React App
 
-A Spring Boot application written in Kotlin that provides a REST API for user management, reading user data from a JSON file.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- Spring Boot 4.0.0
-- Kotlin 2.2.0
-- REST API for user management
-- JSON file-based data source
-- Swagger/OpenAPI documentation
-- Comprehensive user model with detailed fields
+In the project directory, you can run:
 
-## API Endpoints
+### `npm start`
 
-- `GET /api/users` - Returns all users from the users.json file
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### API Documentation
-- Swagger UI: `http://localhost:8080/swagger-ui/index.html`
-- OpenAPI JSON: `http://localhost:8080/v3/api-docs`
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Running the Application
+### `npm test`
 
-### Prerequisites
-- Java 17 or higher
-- Gradle (or use the included Gradle wrapper)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Setting up the Java dependency
+### `npm run build`
 
-With brew:
-```bash
-brew install openjdk@17
-export JAVA_HOME=/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-java -version
-export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Build and Run
-```bash
-# Using Gradle wrapper (recommended)
-./gradlew bootRun
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# Or build and run the JAR
-./gradlew build
-java -jar build/libs/Prompt-engineering-bootcamps-0.0.1-SNAPSHOT.war
+### `npm run eject`
 
-# Swagger
-http://localhost:8080/swagger-ui/index.html
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Running Tests
-```bash
-./gradlew test
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-The application will start on port 8080 by default.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Testing the API
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Once the application is running, you can test the endpoints:
+## Learn More
 
-```bash
-# Test users endpoint - Get all users
-curl http://localhost:8080/api/users
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-# Or with pretty JSON formatting
-curl http://localhost:8080/api/users | jq
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-# Test endpoint with specific headers
-curl -H "Accept: application/json" http://localhost:8080/api/users
-```
+### Code Splitting
 
-You can also access the interactive API documentation at: `http://localhost:8080/swagger-ui/index.html`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Project Structure
+### Analyzing the Bundle Size
 
-```
-src/
-├── main/
-│   ├── kotlin/
-│   │   └── com/bootcamps/Prompt/engineering/bootcamps/
-│   │       ├── PromptEngineeringBootcampsApplication.kt    # Main application class
-│   │       ├── controller/
-│   │       │   └── UserController.kt                      # REST controller for users
-│   │       ├── service/
-│   │       │   └── UserService.kt                         # Service layer for user logic
-│   │       ├── model/
-│   │       │   └── User.kt                                # User data models
-│   │       └── config/
-│   │           └── SwaggerConfig.kt                       # Swagger/OpenAPI configuration
-│   └── resources/
-│       ├── application.properties                         # Application configuration
-│       └── users.json                                     # User data source
-└── test/
-    └── kotlin/
-        └── com/bootcamps/Prompt/engineering/bootcamps/
-            └── PromptEngineeringBootcampsApplicationTests.kt # Application tests
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Data Model
+### Making a Progressive Web App
 
-The Users API returns detailed user information including:
-- Personal details (name, age, gender, etc.)
-- Contact information (email, phone, address)
-- Professional details (company, university)
-- Banking information
-- Physical attributes
-- And more...
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Setup Instructions
+### Advanced Configuration
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd prompt-engineering-bootcamps
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-2. **Ensure Java 17+ is installed**
-   ```bash
-   java -version
-   ```
+### Deployment
 
-3. **Run the application**
-   ```bash
-   ./gradlew bootRun
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-4. **Access the API**
-   - Users endpoint: `http://localhost:8080/api/users`
-   - Swagger UI: `http://localhost:8080/swagger-ui/index.html`
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

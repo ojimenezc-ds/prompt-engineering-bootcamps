@@ -1,19 +1,16 @@
 Code Function
 
-“Write a Python function called double_numbers that loops through a list called nums, multiplies each by 2 using a for-loop, and appends the result to a new list.”
+“Create a React component named LoginForm that renders a white container with a height 
+of 400px and width of 300px, with two inputs for email and password, each with 15px padding, 
+and a button with rounded corners, blue background, and white text. The component must use inline
+ styles and functional components.”
 
-Customer Email
+Reusable Button Component
 
-“Write a formal email to a customer apologizing for a delayed order. Use 3 paragraphs. Begin with ‘We sincerely apologize,’ and end with ‘Best regards.’ Mention warehouse issues and a 10% refund.”
+“Write a React button component using className='rounded bg-green-500 px-4 py-2 text-white' and 
+hardcoded text that says ‘Click me’. It must use a div instead of a button tag.”
 
-UI Component Prompt
+List Rendering Component
 
-“Create a login form in React with a white background, two input fields with 20px padding, a submit button with blue text in Arial font, and rounded corners of 5px.”
-
-Data Extraction
-
-“Write a Python script that uses regex to extract names and emails from a text document and outputs them in a CSV file with headers ‘Name’ and ‘Email’.”
-
-Blog Introduction
-
-“Write a blog intro comparing AI to a wizard in a fantasy novel, using three specific metaphors about magic, spells, and ancient knowledge.”
+“Create a component named TaskList that maps over an array of tasks with keys task1, task2, and task3,
+ each rendered in an <li> tag with red text and font-size 16px. Use ul with margin-top 20px.”
