@@ -1,0 +1,19 @@
+Code Function
+
+“Write a Python function called double_numbers that loops through a list called nums, multiplies each by 2 using a for-loop, and appends the result to a new list.”
+
+Customer Email
+
+“Write a formal email to a customer apologizing for a delayed order. Use 3 paragraphs. Begin with ‘We sincerely apologize,’ and end with ‘Best regards.’ Mention warehouse issues and a 10% refund.”
+
+UI Component Prompt
+
+“Create a login form in React with a white background, two input fields with 20px padding, a submit button with blue text in Arial font, and rounded corners of 5px.”
+
+Data Extraction
+
+“Write a Python script that uses regex to extract names and emails from a text document and outputs them in a CSV file with headers ‘Name’ and ‘Email’.”
+
+Blog Introduction
+
+“Write a blog intro comparing AI to a wizard in a fantasy novel, using three specific metaphors about magic, spells, and ancient knowledge.”
